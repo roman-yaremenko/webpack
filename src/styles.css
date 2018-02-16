@@ -12,7 +12,7 @@ header {
 .logo {
 	background-image: url(http://krasivie-avatarki.ru/images/smayliki/2-smayl-detektiv-s-sigaretoy-vo-rtu.jpg);
 	width: 100px;
-	height:100px;
+	height: 100px;
 	margin-left: 38px;	
 	display: inline-block;
 }
@@ -21,8 +21,8 @@ header {
 	height: 50px;
     width: 300px;
     float: right;
-    margin-top: 33px;
-    margin-right: -50px;
+    margin: 33px -50px 0 0;
+
 }
 
 .registr {
