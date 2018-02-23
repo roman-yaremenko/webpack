@@ -14,36 +14,49 @@ header {
 	text-align: center;
 }
 
+ul {
+	list-style: none;
+}
+
 .menu {
-	height: 40px;
-	margin:auto;
-	display: inline-block;
+    margin: auto;
+    display: inline-block;
+}
+
+.menu-ul {
+	list-style: none;
+	display: flex;
+    height: 40px; 	
 }
 
 .menu ul li a {
-	display: block; 
-    text-align: center; 
-    height: 100%;
-    padding: 0 20px 0 20px;
-}
+	text-decoration: none;
+	padding: 12px 20px;
+	display: inline-block;
 
-.menu-ule {
-	list-style-type: none;
 }
 
 .menu-header-dropdown {
-    float: left;
     height: 40px;
-    line-height: 40px;
+    overflow: hidden;
+    transition: height .25s ease-out, background 0.2s ease-out;
 }
 
-.menu-header-dropdown a:hover {
-	background: #5a5a5a;
-	height: 44px;
+.menu-header-dropdown:hover {
+    background: #565656;
+ 	height: 160px;
+ }
+
+.menu-title {
+ 	color: #fff;
 }
 
+.menu-header-dropdown ul li a {
+	background: #fff;
+    width: calc(100% - 40px);
+    color: black;
+}
 
-a {
-	color: #fff;
-	text-decoration: none;
+.menu-header-dropdown ul li a:hover {
+    background: gray;
 }
